@@ -9,12 +9,12 @@
 #
 Summary:	Python module providing a multiple-producer-multiple-consumer signal-registration and routing infrastructure
 Name:		python-%{module}
-Version:	1.0.0
-Release:	0.%{alpha}
+Version:	1.0.2
+Release:	1
 License:	BSD-like
 Group:		Development/Languages/Python
-Source0:	http://dl.sourceforge.net/pydispatcher/%{srcname}-%{version}%{alpha}.zip
-# Source0-md5:	716b67e192dc0ff7561a84744898aa17
+Source0:	http://dl.sourceforge.net/pydispatcher/%{srcname}-%{version}.tar.gz
+# Source0-md5:	f48c3662759b94ce9c020925316b2036
 URL:		http://pydispatcher.sf.net/
 Requires:	python-modules >= 2.2.3
 BuildArch:	noarch
@@ -29,7 +29,7 @@ Cookbook. The SourceForge project aims to include various enhancements
 to the recipe developed during use in various applications.
 
 %prep
-%setup -q -n %{srcname}-%{version}%{alpha}
+%setup -q -n %{srcname}-%{version}
 
 %build
 python setup.py build
