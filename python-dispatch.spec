@@ -3,9 +3,9 @@
 # - pl
 # - fix instalation (setup.py needs rewriting)
 #
-%define 	module dispatch
-%define		srcname PyDispatcher
-%define		alpha a1
+%define 	module	dispatch
+%define		srcname	PyDispatcher
+%define		alpha	a1
 #
 Summary:	Python module providing a multiple-producer-multiple-consumer signal-registration and routing infrastructure
 Name:		python-%{module}
