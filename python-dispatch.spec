@@ -10,7 +10,7 @@
 Summary:	Python module providing a multiple-producer-multiple-consumer signal-registration and routing infrastructure
 Name:		python-%{module}
 Version:	1.0.2
-Release:	3
+Release:	4
 License:	BSD-like
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/pydispatcher/%{srcname}-%{version}.tar.gz
