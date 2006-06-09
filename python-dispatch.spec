@@ -43,8 +43,8 @@ aplikacjach.
 %package examples
 Summary:	Examples and tests for PyDispatcher
 Summary(pl):	Przyk³ady i testy dla PyDispatchera
-Group:          Development/Languages/Python
-Requires:       %{name} = %{version}-%{release}
+Group:		Development/Languages/Python
+Requires:	%{name} = %{version}-%{release}
 
 %description examples
 PyDispatcher provides the Python programmer with a
