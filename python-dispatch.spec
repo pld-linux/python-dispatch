@@ -16,7 +16,7 @@ License:	BSD-like
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/pydispatcher/%{srcname}-%{version}.tar.gz
 # Source0-md5:	f48c3662759b94ce9c020925316b2036
-URL:		http://pydispatcher.sf.net/
+URL:		http://pydispatcher.sourceforge.net/
 BuildRequires:	python
 Requires:	python-modules >= 2.2.3
 %pyrequires_eq	python-libs
@@ -36,8 +36,8 @@ PyDispatcher dostarcza programistom Pythona infrastrukturê
 rejestrowania i przekazywania sygna³ów w ¶rodowisku z wieloma
 producentami i wieloma konsumentami do u¿ywania w wielu kontekstach.
 Mechanizm PyDispatchera rozpocz±³ swoje ¿ycie jako wysoko wyceniony
-opis w Python Cookbook. Celem projektu SourceForge jest do³±czenie
-do opisu ró¿nych rozszerzeñ tworzonych podczas u¿ywania w ró¿nych
+opis w Python Cookbook. Celem projektu SourceForge jest do³±czenie do
+opisu ró¿nych rozszerzeñ tworzonych podczas u¿ywania w ró¿nych
 aplikacjach.
 
 %package examples
@@ -61,8 +61,8 @@ PyDispatcher dostarcza programistom Pythona infrastrukturê
 rejestrowania i przekazywania sygna³ów w ¶rodowisku z wieloma
 producentami i wieloma konsumentami do u¿ywania w wielu kontekstach.
 Mechanizm PyDispatchera rozpocz±³ swoje ¿ycie jako wysoko wyceniony
-opis w Python Cookbook. Celem projektu SourceForge jest do³±czenie
-do opisu ró¿nych rozszerzeñ tworzonych podczas u¿ywania w ró¿nych
+opis w Python Cookbook. Celem projektu SourceForge jest do³±czenie do
+opisu ró¿nych rozszerzeñ tworzonych podczas u¿ywania w ró¿nych
 aplikacjach.
 
 Ten pakiet zawiera programy przyk³adowe i testowe.
@@ -80,7 +80,7 @@ python setup.py install \
 	--root=$RPM_BUILD_ROOT \
 	--optimize=2
 
-install -d $RPM_BUILD_ROOT/%{_examplesdir}/%{name}-%{version}
+install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 mv  $RPM_BUILD_ROOT%{py_sitescriptdir}/%{module}/{examples,tests} \
     $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 %py_comp $RPM_BUILD_ROOT%{py_sitescriptdir}/%{module}
