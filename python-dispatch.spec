@@ -8,7 +8,7 @@
 %define		alpha	a1
 #
 Summary:	Python module providing signal-registration and routing infrastructure
-Summary(pl):	Modu³ Pythona dostarczaj±cy infrastrukturê rejestrowania i przekazywania sygna³ów
+Summary(pl.UTF-8):   ModuÅ‚ Pythona dostarczajÄ…cy infrastrukturÄ™ rejestrowania i przekazywania sygnaÅ‚Ã³w
 Name:		python-%{module}
 Version:	1.0.2
 Release:	4
@@ -31,18 +31,18 @@ PyDispatcher started life as a highly rated recipe in the Python
 Cookbook. The SourceForge project aims to include various enhancements
 to the recipe developed during use in various applications.
 
-%description -l pl
-PyDispatcher dostarcza programistom Pythona infrastrukturê
-rejestrowania i przekazywania sygna³ów w ¶rodowisku z wieloma
-producentami i wieloma konsumentami do u¿ywania w wielu kontekstach.
-Mechanizm PyDispatchera rozpocz±³ swoje ¿ycie jako wysoko wyceniony
-opis w Python Cookbook. Celem projektu SourceForge jest do³±czenie do
-opisu ró¿nych rozszerzeñ tworzonych podczas u¿ywania w ró¿nych
+%description -l pl.UTF-8
+PyDispatcher dostarcza programistom Pythona infrastrukturÄ™
+rejestrowania i przekazywania sygnaÅ‚Ã³w w Å›rodowisku z wieloma
+producentami i wieloma konsumentami do uÅ¼ywania w wielu kontekstach.
+Mechanizm PyDispatchera rozpoczÄ…Å‚ swoje Å¼ycie jako wysoko wyceniony
+opis w Python Cookbook. Celem projektu SourceForge jest doÅ‚Ä…czenie do
+opisu rÃ³Å¼nych rozszerzeÅ„ tworzonych podczas uÅ¼ywania w rÃ³Å¼nych
 aplikacjach.
 
 %package examples
 Summary:	Examples and tests for PyDispatcher
-Summary(pl):	Przyk³ady i testy dla PyDispatchera
+Summary(pl.UTF-8):   PrzykÅ‚ady i testy dla PyDispatchera
 Group:		Development/Languages/Python
 Requires:	%{name} = %{version}-%{release}
 
@@ -56,16 +56,16 @@ to the recipe developed during use in various applications.
 
 This package contains example and test programs.
 
-%description examples -l pl
-PyDispatcher dostarcza programistom Pythona infrastrukturê
-rejestrowania i przekazywania sygna³ów w ¶rodowisku z wieloma
-producentami i wieloma konsumentami do u¿ywania w wielu kontekstach.
-Mechanizm PyDispatchera rozpocz±³ swoje ¿ycie jako wysoko wyceniony
-opis w Python Cookbook. Celem projektu SourceForge jest do³±czenie do
-opisu ró¿nych rozszerzeñ tworzonych podczas u¿ywania w ró¿nych
+%description examples -l pl.UTF-8
+PyDispatcher dostarcza programistom Pythona infrastrukturÄ™
+rejestrowania i przekazywania sygnaÅ‚Ã³w w Å›rodowisku z wieloma
+producentami i wieloma konsumentami do uÅ¼ywania w wielu kontekstach.
+Mechanizm PyDispatchera rozpoczÄ…Å‚ swoje Å¼ycie jako wysoko wyceniony
+opis w Python Cookbook. Celem projektu SourceForge jest doÅ‚Ä…czenie do
+opisu rÃ³Å¼nych rozszerzeÅ„ tworzonych podczas uÅ¼ywania w rÃ³Å¼nych
 aplikacjach.
 
-Ten pakiet zawiera programy przyk³adowe i testowe.
+Ten pakiet zawiera programy przykÅ‚adowe i testowe.
 
 %prep
 %setup -q -n %{srcname}-%{version}
