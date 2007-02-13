@@ -8,7 +8,7 @@
 %define		alpha	a1
 #
 Summary:	Python module providing signal-registration and routing infrastructure
-Summary(pl.UTF-8):   Moduł Pythona dostarczający infrastrukturę rejestrowania i przekazywania sygnałów
+Summary(pl.UTF-8):	Moduł Pythona dostarczający infrastrukturę rejestrowania i przekazywania sygnałów
 Name:		python-%{module}
 Version:	1.0.2
 Release:	4
@@ -42,7 +42,7 @@ aplikacjach.
 
 %package examples
 Summary:	Examples and tests for PyDispatcher
-Summary(pl.UTF-8):   Przykłady i testy dla PyDispatchera
+Summary(pl.UTF-8):	Przykłady i testy dla PyDispatchera
 Group:		Development/Languages/Python
 Requires:	%{name} = %{version}-%{release}
 
