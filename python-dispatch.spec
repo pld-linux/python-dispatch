@@ -18,6 +18,8 @@ Source0:	http://dl.sourceforge.net/pydispatcher/%{srcname}-%{version}.tar.gz
 # Source0-md5:	f48c3662759b94ce9c020925316b2036
 URL:		http://pydispatcher.sourceforge.net/
 BuildRequires:	python
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	python-modules >= 2.2.3
 %pyrequires_eq	python-libs
 BuildArch:	noarch
