@@ -11,7 +11,7 @@ Summary:	Python module providing signal-registration and routing infrastructure
 Summary(pl.UTF-8):	Moduł Pythona dostarczający infrastrukturę rejestrowania i przekazywania sygnałów
 Name:		python-%{module}
 Version:	1.0.2
-Release:	6
+Release:	7
 License:	BSD-like
 Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/pydispatcher/%{srcname}-%{version}.tar.gz
