@@ -73,14 +73,12 @@ Ten pakiet zawiera programy przykładowe i testowe.
 %setup -q -n %{srcname}-%{version}
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
-	--optimize=2
+%py_install
 
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 mv  $RPM_BUILD_ROOT%{py_sitescriptdir}/%{module}/{examples,tests} \
