@@ -17,6 +17,7 @@ Group:		Development/Languages/Python
 Source0:	http://dl.sourceforge.net/pydispatcher/%{srcname}-%{version}.tar.gz
 # Source0-md5:	f48c3662759b94ce9c020925316b2036
 URL:		http://pydispatcher.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
